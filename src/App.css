@@ -1,0 +1,36 @@
+.app {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.products-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.products-section > h2 {
+  margin: 0 0 35px;
+  text-align: center;
+  font-size: 32px;
+  color: #111827;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+@media (max-width: 900px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+}

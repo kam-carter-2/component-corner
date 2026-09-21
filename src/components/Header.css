@@ -1,0 +1,38 @@
+.site-header {
+  background-color: #111827;
+  color: white;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.store-name {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.navigation {
+  display: flex;
+  gap: 25px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.navigation a:hover {
+  opacity: 0.7;
+}

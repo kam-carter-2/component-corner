@@ -14,7 +14,8 @@ function App() {
       id: 1,
       name: "Wireless Headphones",
       price: 79.99,
-      image: "https://placehold.co/600x400",
+      image:
+        "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=600",
       description:
         "Premium wireless headphones with clear sound and comfortable ear cushions",
     },
@@ -22,7 +23,8 @@ function App() {
       id: 2,
       name: "Smart Watch",
       price: 129.99,
-      image: "https://placehold.co/600x400",
+      image:
+        "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=600",
       description:
         "Stay connected with fitness tracking, notifications, and a modern design",
     },
@@ -30,7 +32,8 @@ function App() {
       id: 3,
       name: "Mechanical Keyboard",
       price: 89.99,
-      image: "https://placehold.co/600x400",
+      image:
+        "https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg?auto=compress&cs=tinysrgb&w=600",
       description:
         "A responsive mechanical keyboard built for productivity, gaming, and everyday use",
     },
